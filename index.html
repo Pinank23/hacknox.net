@@ -1,673 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
-<!-- Mirrored from hacknox.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Apr 2025 19:28:42 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="Error/404.html" />
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
+	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
+	<title>Local index - HTTrack Website Copier</title>
+  <!-- Mirror and index made by HTTrack Website Copier/3.49-6 [XR&CO'2014] -->
+	<style type="text/css">
+	<!--
 
-    <title>Home - HackNox Solutions</title>
-    <meta content="" name="HackNox - IT Solutions & Business Services">
-    <meta name="description" content="HackNox - IT Solutions & Business Services">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta content="" name="HackNox">
+body {
+	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	background: #77b;
+}
+body, td {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
 
-    <!-- Favicons -->
-    <link href="images/favicon.png" rel="icon">
-    <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+#subTitle {
+	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
+	}
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&amp;display=swap" rel="stylesheet">
-    <!-- Vendor CSS Files -->
-    <link href="vendor/aos/aos.css" rel="stylesheet">
-    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <!-- Main CSS File -->
-    <link href="stylesheets/styles3bdf.css?ves=0.02" rel="stylesheet">
+#siteNavigation a, #siteNavigation .current {
+	font-weight: bold;  color: #448;
+	}
+#siteNavigation a:link    { text-decoration: none; }
+#siteNavigation a:visited { text-decoration: none; }
 
-</head>
-<body>
-    <header id="header" class="header d-flex align-items-center sticked stikcy-menu">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
-                <img src="images/logo.png" alt="logo">
-            </a>
-            <nav id="navbar" class="navbar">
-                <ul class="user-nav">
-                    <li><a href="index.html" class="">Home</a></li>
-                    <li><a href="Register.html" class="">Registration</a></li>
-                    <li class="dropdown">
-                        <a href="#"><span>Login</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul class="nav-child">
-                            <li><a href="Login.html">Students</a></li>
-                            <li><a href="OfficerLogin.html">Officers</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="VerifyCert.html">Verify Certificate</a></li>
-                    <li><a href="index.html#contact" class="btn-get-started hide-on-mobile">Meet With Us</a></li>
-                </ul>
-            </nav><!-- .navbar -->
+#siteNavigation .current { background-color: #ccd; }
 
-            <button id="darkmode-button" class="d-none"><i class="bi bi-moon-fill"></i></button>
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        </div>
-    </header>
-    <!-- End Header -->
-    <!--  Hero Section  -->
-    
-<style>
-    .content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white; /* Ensure text is readable */
-        text-align: center;
-        z-index: 1;
-    }
+#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
+#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
 
-    .custom-video {
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+
+a:link    { text-decoration: underline;  color: #00f; }
+a:visited { text-decoration: underline;  color: #000; }
+a:hover   { text-decoration: underline;  color: #c00; }
+a:active  { text-decoration: underline; }
+
+#pageContent {
+	clear: both;
+	border-bottom: 6px solid #000;
+	padding: 10px;  padding-top: 20px;
+	line-height: 1.65em;
+	background-image: url(backblue.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
+
+#pageContent, #siteNavigation {
+	background-color: #ccd;
+	}
+
+
+.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
+.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+
+hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+
+h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
+h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
+h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
+h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+
+.blak { background-color: #000; }
+.hide { display: none; }
+.tableWidth { min-width: 400px; }
+
+.tblRegular       { border-collapse: collapse; }
+.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
+.tblHeaderColor, .tblHeaderColor td { background: #99c; }
+.tblNoBorder td   { border: 0; }
+
+
+// -->
 </style>
 
-    <section id="hero hero-video" class="hero-video sticked-header-offset">
-        <div class="hero-bg-overlay"></div>
-        <div class="container video-caption position-relative">
-            <div class="row gy-4 aos-init aos-animate">
-                <div class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
-                    <h2 data-aos="fade-up">HackNox Infosolutions<span class="circle" data-aos="fade-right" data-aos-delay="800">.</span></h2>
-                    <p data-aos="fade-up" data-aos-delay="400">At HackNox Infosolutions, we go beyond traditional cybersecurity services by integrating innovative strategies, providing specialized training, and delivering tailored solutions that meet the unique needs of each client. Together, we create a secure digital environment where businesses can thrive with confidence.</p>
-                    <div class="social" data-aos="fade-up" data-aos-delay="600">
-                    </div>
-                    <div class="d-flex justify-content-start">
-                        <a href="#contact" class="btn-get-started mr-20" data-aos="fade-up" data-aos-delay="800">Meet With Us</a>
-                        <a href="#services" class="btn-get-started" data-aos="fade-up" data-aos-delay="1000">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+</head>
 
-        <div class="video-wrap">
-            <div id="video">
-                <video id="video-hacknox" class="custom-video" autoplay loop muted playsinline>
-                    <source src="img/videos/video2.mp4" type="video/mp4" />
-                </video>
-            </div>
-        </div>
-        
-    </section>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+	<tr>
+	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
+	</tr>
+</table>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+<tr class="blak">
+<td>
+	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+	<tr>
+	<td colspan="6"> 
+		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+		<tr> 
+		<td id="pageContent"> 
+<!-- ==================== End prologue ==================== -->
 
-    <!-- End Hero Section -->
+	<meta name="generator" content="HTTrack Website Copier/3.x">
+	<TITLE>Local index - HTTrack</TITLE>
+</HEAD>
+<BODY>
+<H1 ALIGN=Center>Index of locally available sites:</H1>
+	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
+		<TR>
+			<TD BACKGROUND="fade.gif">
+				&middot;
+					<A HREF="hacknox.net/index.html">
+						Home - HackNox Solutions
+					</A>		
+			</TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<BR>
+	<BR>
+  	<H6 ALIGN="RIGHT">
+	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
+	</H6>
+	<!-- Mirror and index made by HTTrack Website Copier/3.49-6 [XR&CO'2014] -->
+	<!-- Thanks for using HTTrack Website Copier! -->
+	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=hacknox.net/index.html">
 
-    <main role="main" id="main" class="">
-        
-<!-- Start Service Section -->
 
-    <div id="services" class="section">
-        <div class="top-icon-box position-relative">
-            <div class="container position-relative">
-                <div class="row gy-4">
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/d2da96c6-4247-4c95-96fc-173a7e2de528.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Network%20Penetration%20Testing.html" class="stretched-link">Network Penetration Testing</a></h4>
-                                <p>Simulate real-world cyberattacks to test the resilience of your network, identifying and addressing vulnerabilities before they are exploited.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/c7e19886-2727-4a92-a061-fb406c1acc0a.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Vulnerability%20Assessment.html" class="stretched-link">Vulnerability Assessment</a></h4>
-                                <p>Identify and prioritize security weaknesses across your IT infrastructure to mitigate potential risks before they can be exploited</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/5f299fa0-bc60-444d-a1d8-7ab27bd07a59.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Web%20Application%20Security.html" class="stretched-link">Web Application Security</a></h4>
-                                <p>Protect your web applications from cyber threats by identifying vulnerabilities and ensuring compliance with industry standards</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/8ef3f622-a56f-475c-b66b-8ae298bcf197.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Forensic%20Services.html" class="stretched-link">Forensic Services</a></h4>
-                                <p>Investigate and analyze cyber incidents to uncover the root cause, preserve evidence, and support legal proceedings.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/a6d988db-d78e-4ff1-920c-fea409617e67.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Cyber%20Security%20Certifications.html" class="stretched-link">Cyber Security Certifications</a></h4>
-                                <p>Empower your team with industry-recognized certifications, enhancing their skills and knowledge in the everevolving cybersecurity landscape</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/8a6fd71d-c9b8-4152-970f-db75a19399a6.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Mobile%20Application%20Security.html" class="stretched-link">Mobile Application Security</a></h4>
-                                <p>Safeguard your mobile apps against malicious attacks with comprehensive security assessments and robust protection strategies.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/40d3d61e-9a31-427c-9167-90ab0afdc78f.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Blue%20Teaming.html" class="stretched-link">Blue Teaming</a></h4>
-                                <p>Strengthen your defenses with proactive monitoring and incident response to detect and neutralize threats in real time.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/526a281b-9f94-4fab-af6a-155d289a143e.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Red%20Teaming.html" class="stretched-link">Red Teaming</a></h4>
-                                <p>Adopt the mindset of an attacker to uncover hidden vulnerabilities through realistic and sophisticated penetration testing scenarios.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/7f06f8dd-3dbb-44c0-b00c-b3cec9ef3bfd.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/API%20Security%20Assessment.html" class="stretched-link">API Security Assessment</a></h4>
-                                <p>Protect your APIs from security threats with thorough assessments, ensuring safe and reliable data exchange across your applications.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/1520399f-c5df-4ae2-a310-2161f7c66d92.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Compliance%20Audits.html" class="stretched-link">Compliance Audits</a></h4>
-                                <p>Achieve regulatory compliance and avoid penalties with our comprehensive audit services tailored to your industry&#x2019;s standards.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/826b4a58-a9d9-48c2-9d92-6d686b16c625.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/DevSecOps.html" class="stretched-link">DevSecOps</a></h4>
-                                <p>Integrate security practices into your DevOps pipeline to ensure continuous delivery without compromising on security, reducing risks throughout the software development lifecycle.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/2e80bcff-1705-4586-8d5d-e2650a46558e.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Cloud%20Security%20Assessment.html" class="stretched-link">Cloud Security Assessment</a></h4>
-                                <p>Ensure the security of your cloud environments by identifying and addressing misconfigurations, vulnerabilities, and compliance gaps.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/bb2f6570-9afa-4678-beab-13d45d4e1928.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/ATM%20Vulnerability%20Assessment%20and%20Penetration%20Testing.html" class="stretched-link">ATM Vulnerability Assessment and Penetration Testing</a></h4>
-                                <p>Protect your ATM networks from physical and cyber threats with our specialized security services designed for financial institutions.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/1db9a940-39c7-470a-ac3d-1e74665ec94f.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Corporate%20%26%20Officer%20Training.html" class="stretched-link">Corporate &amp; Officer Training</a></h4>
-                                <p>Equip your organization&#x2019;s leadership with the knowledge and skills needed to mitigate cybersecurity risks and lead secure operations.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/39a9fccb-6d48-408f-a69e-ef311a9854ac.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Cyber%20Law%20Consulting.html" class="stretched-link">Cyber Law Consulting</a></h4>
-                                <p>Navigate the complex landscape of cybersecurity laws and regulations with expert guidance, ensuring your organization&#x2019;s compliance.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/be8375f4-f238-4ec7-91e3-9d33840ae038.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Cyber%20Crime%20Consulting.html" class="stretched-link">Cyber Crime Consulting</a></h4>
-                                <p>Receive specialized consulting to address and respond to cyber crime incidents, helping to minimize impact and assist with legal proceedings.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/3e917449-773a-4c5d-a0da-032c11771df4.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Data%20Protection%20and%20Recovery.html" class="stretched-link">Data Protection and Recovery</a></h4>
-                                <p>Safeguard your critical data with our advanced protection strategies and ensure quick recovery in case of data breaches or disasters.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/83ed9ba4-f61a-4666-8686-41055c743e57.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/IT%20%26%20OT%20Security%20Assessment.html" class="stretched-link">IT &amp; OT Security Assessment</a></h4>
-                                <p>Equip your organization&#x2019;s leadership with the knowledge and skills needed to mitigate cybersecurity risks and lead secure operations.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/c1a3d52c-e0de-453f-9909-baf5020507e3.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/Cyber%20Crime%20Investigations.html" class="stretched-link">Cyber Crime Investigations</a></h4>
-                                <p>Yes, Hacknox is known for providing cybercrime investigation services, which focus on identifying, analyzing, and mitigating cyber threats.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/98196112-386f-4c64-98d7-fa316f626a12.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/IT%20Security%20Training.html" class="stretched-link">IT Security Training</a></h4>
-                                <p>IT Security Training service is likely aimed at enhancing the cybersecurity knowledge and skills of individuals or organizations.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/ffd4c3ac-655a-4304-8eea-b18f5c9cfa2a.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/IT%20Security%20Auditing.html" class="stretched-link">IT Security Auditing</a></h4>
-                                <p>Hacknox offering IT Security Auditing likely includes services aimed at evaluating and strengthening an organization&#x27;s cybersecurity posture.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
-                        <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box">
-                                <div class="icon"><img src="img/service/95b9d7d8-e166-4af6-bad6-4704651ffe45.png" alt="icon"></div>
-                                    <h4 class="title"><a href="service/IT%20Outsourcing.html" class="stretched-link">IT Outsourcing</a></h4>
-                                <p>IT Outsourcing provided by Hacknox likely refers to the practice of delegating IT-related tasks and operations to Hacknox, a service provider.</p>
-                            </div>
-                        </div>
-                        <!--End Icon Box -->
+<!-- ==================== Start epilogue ==================== -->
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
 
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- End Service Section -->
-<!-- Featured -->
-<section>
-    
-    <div class="container" id="featured">
-        <div class="section-header" data-aos="fade-up" data-aos-delay="100">
-            <h2>Why Choose HackNox Infosolutions?</h2>
-            <p><span style="color: rgb(115, 115, 115); font-family: &quot;Space Grotesk&quot;, sans-serif; font-size: 18px; text-transform: none;">HackNox Infosolutions is specialized in delivering comprehensive, professional cybersecurity solutions designed to protect your digital assets against ever-evolving threats. HackNox is trusted by organizations across industries. Our goal is to provide robust security solutions that </span><span style="color: rgb(115, 115, 115); font-family: &quot;Space Grotesk&quot;, sans-serif; font-size: 18px; text-transform: none;">enable </span><span style="color: rgb(115, 115, 115); font-family: &quot;Space Grotesk&quot;, sans-serif; font-size: 18px; text-transform: none;">your business to thrive in today’s digital landscape with confidence. Services provided by Hacknox are:</span></p>
-        </div>
-        <div class="row">
-            <!-- start  left -->
-            <div class="col-md-4 left">
-                    <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
-                        <div class="description">
-                                <a href="chooseus/Cyber%20Crime%20Investigations.html" title="Cyber Crime Investigations">
-                                    <h4>Cyber Crime Investigations</h4>
-                                    <p>Cyber Crime Investigations by Hacknox detect and investigate cybercrimes using digital forensics and threat intelligence.</p>
-                                </a>
-                        </div>
-                        <div class="icon">
-                            <img src="img/ChooseUsOpt/de7f37d3-b8af-47c3-a05b-e7032854f1ab.png" alt="icon">
-                        </div>
-                    </div>
-                    <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
-                        <div class="description">
-                                <a href="chooseus/IT%20Security%20Auditing.html" title="IT Security Auditing">
-                                    <h4>IT Security Auditing</h4>
-                                    <p>IT Security Auditing identifies vulnerabilities, ensures compliance, and strengthens security.</p>
-                                </a>
-                        </div>
-                        <div class="icon">
-                            <img src="img/ChooseUsOpt/e20c8979-1d11-41cc-8766-5c6858dfe956.png" alt="icon">
-                        </div>
-                    </div>
-            </div>
-
-            <!-- start  center -->
-            <div class="col-md-4 p-4 p-sm-5 center">
-                <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
-                    <div class="center-icon">
-                        <img src="images/features.jpg" alt="icon">
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 right">
-                    <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon">
-                            <img src="img/ChooseUsOpt/b778495e-b24e-4f8b-8de8-e1f59a2d95ea.svg" alt="icon">
-                        </div>
-                        <div class="description">
-                                <a href="chooseus/IT%20Security%20Training.html" title="IT Security Training">
-                                    <h4>IT Security Training</h4>
-                                    <p>IT Security Training by Hacknox provides comprehensive programs to enhance cybersecurity skills for individuals and organizations.</p>
-                                </a>
-                        </div>
-                    </div>
-                    <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon">
-                            <img src="img/ChooseUsOpt/2267adaf-d853-4efc-81d7-58a787ef008f.png" alt="icon">
-                        </div>
-                        <div class="description">
-                                <a href="chooseus/IT%20Outsourcing.html" title="IT Outsourcing">
-                                    <h4>IT Outsourcing</h4>
-                                    <p>IT Outsourcing by Hacknox delegates IT functions to experts, optimize operations, reducing costs, and enhane productivity.</p>
-                                </a>
-                        </div>
-                    </div>
-            </div>
-            <!-- end  left -->
-
-        </div>
-    </div>
-
-</section>
-<!-- Featured -->
-<style type="text/css">
-    .contact-section .contact-form-3 form .form-control {
-        color: dimgray;
-    }</style>
-<div id="contact" class="contact-section section">
-    <div class="section-header">
-        <h2>Contact Us</h2>
-        <p>Do you have any question?</p>
-    </div>
-    <div class="container">
-        <div class="row">
-            
-    <div class="col-lg-4 col-md-12" data-aos="fade-right">
-        <div class="contact-information-box-3">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="single-contact-info-box">
-                        <div class="contact-info">
-                            <h6>Address:</h6>
-                            <p>HackNox InfoSolutions Pvt. Ltd., L-Ground, Shivalik Avenue, Besides Mega Mall, udhna darwaja,&nbsp; Surat - 395005, India.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="single-contact-info-box">
-                        <div class="contact-info">
-                            <h6>Phone:</h6>
-                            &#x2B;91 63590 34141  | &#x2B;91 63590 38181
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="single-contact-info-box">
-                        <div class="contact-info">
-                            <h6>Email:</h6>
-                            contact@hacknox.com
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-            <div class="col-lg-8 col-md-12" data-aos="fade-left">
-                <div class="contact-form-box contact-form contact-form-3">
-                    <div class="form-container-box">
-                        <form class="contact-form form" method="post" action="https://hacknox.net/home/contactus">
-                            
-
-                            <div class="controls">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group form-input-box">
-                                            <input class="form-control" autocomplete="Option" aria-required="true" placeholder="Name*" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" value="" />
-                                            <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group form-input-box">
-                                            <div class="form-group form-input-box">
-                                                <input class="form-control" autocomplete="Option" aria-required="true" placeholder="Email*" type="text" id="Email" name="Email" value="" />
-                                                <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group form-input-box">
-                                            <input class="form-control" autocomplete="Option" aria-required="true" placeholder="Subject*" type="text" data-val="true" data-val-required="Please, write subject" id="Subject" name="Subject" value="" />
-                                            <span class="text-danger field-validation-valid" data-valmsg-for="Subject" data-valmsg-replace="true"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group form-input-box">
-                                            <textarea class="form-control" autocomplete="Option" aria-required="true" placeholder="Write Your Message*" rows="7" data-val="true" data-val-required="Please, leave us a message" id="Message" name="Message">
-</textarea>
-                                            <span class="text-danger field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" data-text="Send Message">Send Message</button>
-                                    </div>
-                                    <div class="messages">
-                                        <div class="alert alert alert-success alert-dismissable alert-dismissable hidden"
-                                             id="msgSubmit">
-                                            <button type="button" class="close" data-dismiss="alert"
-                                                    aria-hidden="true">
-                                                &times;
-                                            </button> Thank You! your message has been sent.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EhwuQ8_M-lGn3LbxUvg2d_cGk0ZcL9f_sRpK3HuTLPuaJR6yDulzSoT68u0kbtBgt8GFY7TCuvXIvptzGBQuVdCwBUlYF3b1JGTWmY8MLfX3-myEM_TOEJ__t0-EElKioKAjAQ_dMk541X_kPF8MrA" /></form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Contact Section -->
-
-    </main>
-    <!-- End #main -->
-    <!--  Footer  -->
-    <div class="row-fluid">
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=hacknox%20surat&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://hacknox.com/">HackNox InfoSolutions</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {width:100%!important;height:500px!important;}</style></div>
-    </div>
-
-        <footer id="footer" class="footer-section">
-        <div class="container">
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html" class="logo d-flex align-items-center">
-                                    <img src="images/logo.png" alt="logo">
-                                </a>
-                            </div>
-                            <div class="footer-text">
-                                <p>HackNox InfoSolutions Pvt. Ltd. is a leader in designing, implementing and providing Ethical Hacking and Information Security training for professionals, individuals and corporate world.</p>
-                            </div>
-
-                            <div class="service-widget footer-widget">
-                                <div class="footer-widget-heading">
-                                    <h3>Information</h3>
-                                </div>
-                                <ul class="list">
-                                    <li><a href="aboutus.html">About</a></li>
-                                    <li><a href="privacy.html">Terms & Conditions</a></li>
-                                    <li><a href="privacy.html">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                    <a href="https://twitter.com/" title="https://www.twitter.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-                                        </svg>
-                                    </a>
-                                    <a href="https://facebook.com/" title="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-                                    <a href="https://instagram.com/hacknoxinfo" title="https://www.pinterest.com/"><i class="bi bi-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                            
-    <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-        <div class="service-widget footer-widget">
-
-            <div class="footer-widget-heading">
-                <h3>Services</h3>
-            </div>
-            <ul class="list">
-                    <li>
-                            <a href="service/Vulnerability%20Assessment.html"> Vulnerability Assessment </a>
-                    </li>
-                    <li>
-                            <a href="service/Forensic%20Services.html"> Forensic Services </a>
-                    </li>
-                    <li>
-                            <a href="service/Mobile%20Application%20Security.html"> Mobile Application Security </a>
-                    </li>
-                    <li>
-                            <a href="service/Red%20Teaming.html"> Red Teaming </a>
-                    </li>
-                    <li>
-                            <a href="service/Compliance%20Audits.html"> Compliance Audits </a>
-                    </li>
-                    <li>
-                            <a href="service/Cloud%20Security%20Assessment.html"> Cloud Security Assessment </a>
-                    </li>
-                    <li>
-                            <a href="service/Corporate%20%26%20Officer%20Training.html"> Corporate &amp; Officer Training </a>
-                    </li>
-                    <li>
-                            <a href="service/Cyber%20Crime%20Consulting.html"> Cyber Crime Consulting </a>
-                    </li>
-                    <li>
-                            <a href="service/IT%20%26%20OT%20Security%20Assessment.html"> IT &amp; OT Security Assessment </a>
-                    </li>
-                    <li>
-                            <a href="service/IT%20Security%20Training.html"> IT Security Training </a>
-                    </li>
-                    <li>
-                            <a href="service/IT%20Outsourcing.html"> IT Outsourcing </a>
-                    </li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-        <div class="service-widget footer-widget">
-
-            <div class="footer-widget-heading">
-                <h3>&nbsp;</h3>
-            </div>
-            <ul class="list">
-                    <li>
-                            <a href="service/Network%20Penetration%20Testing.html"> Network Penetration Testing </a>
-                    </li>
-                    <li>
-                            <a href="service/Web%20Application%20Security.html"> Web Application Security </a>
-                    </li>
-                    <li>
-                            <a href="service/Cyber%20Security%20Certifications.html"> Cyber Security Certifications </a>
-                    </li>
-                    <li>
-                            <a href="service/Blue%20Teaming.html"> Blue Teaming </a>
-                    </li>
-                    <li>
-                            <a href="service/API%20Security%20Assessment.html"> API Security Assessment </a>
-                    </li>
-                    <li>
-                            <a href="service/DevSecOps.html"> DevSecOps </a>
-                    </li>
-                    <li>
-                            <a href="service/ATM%20Vulnerability%20Assessment%20and%20Penetration%20Testing.html"> ATM Vulnerability Assessment and Penetration Testing </a>
-                    </li>
-                    <li>
-                            <a href="service/Cyber%20Law%20Consulting.html"> Cyber Law Consulting </a>
-                    </li>
-                    <li>
-                            <a href="service/Data%20Protection%20and%20Recovery.html"> Data Protection and Recovery </a>
-                    </li>
-                    <li>
-                            <a href="service/Cyber%20Crime%20Investigations.html"> Cyber Crime Investigations </a>
-                    </li>
-                    <li>
-                            <a href="service/IT%20Security%20Auditing.html"> IT Security Auditing </a>
-                    </li>
-            </ul>
-        </div>
-    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="contact-widget footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Contacts</h3>
-                            </div>
-                            <div class="footer-text">
-                                <p style="width:10px"><i class="bi bi-geo-alt-fill mr-15"></i></p> <p>HackNox InfoSolutions Pvt. Ltd., L-Ground, Shivalik Avenue, Besides Mega Mall, udhna darwaja,&nbsp; Surat - 395005, India.</p>
-                                <p><i class="bi bi-telephone-inbound-fill mr-15"></i> &#x2B;91 63590 34141  | &#x2B;91 63590 38181</p>
-                                <p><i class="bi bi-envelope-fill mr-15"></i> contact@hacknox.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-left text-lg-left">
-                        <div class="copyright-text">
-                            <p>© HackNox  2024 | All Rights Reserved <a href="index.html">HackNox.Net</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- End Footer -->
-
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center active">
-        <i class="bi bi-arrow-up-short"></i>
-    </a>
-
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/aos/aos.js"></script>
-    <script src="vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="javascripts/plugins.js"></script>
-    <script src="javascripts/purecounter_vanilla.js"></script>
-    <script src="javascripts/validator.min.js"></script>
-    <script src="javascripts/contactform.js"></script>
-    <script src="javascripts/script.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="javascripts/main.js"></script>
-    
-    <script src="lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
+	</tr>
+</table>
 
 </body>
 
-<!-- Mirrored from hacknox.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Apr 2025 19:30:10 GMT -->
 </html>
+
+
